@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Countdown Timer</title>
+  <meta name="author" content="Alexoid"/>
+  <link href='https://fonts.googleapis.com/css?family=Inconsolata' rel='stylesheet' type='text/css'>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="timer">
+    <div class="timer__controls">
+      <button data-time="900" class="timer__button">15 Minutes</button>
+      <button data-time="1800" class="timer__button">Half and hour</button>
+      <button data-time="7200" class="timer__button">2 Hours</button>
+      <button data-time="10800" class="timer__button">Nap</button>
+      <button data-time="28800" class="timer__button">Work Time</button>
+      <form name="customForm" id="custom">
+        <input type="text" name="minutes" placeholder="Enter Hours to Storage">
+      </form>
+    </div>
+    <div class="display">
+      <h1 class="display__time-left"></h1>
+      <p class="display__end-time"></p>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
